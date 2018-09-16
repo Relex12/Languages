@@ -15,8 +15,14 @@ Makefile
 
 ## langages à éditer
 
-Python
-C
+Markdown
+
 Javascript
+
+C
+Python
 Haskell
+
 Java
+LaTeX
+WordPress
