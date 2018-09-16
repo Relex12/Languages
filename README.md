@@ -22,6 +22,7 @@ Javascript
 C
 Python
 Haskell
+HTML
 
 Java
 LaTeX
