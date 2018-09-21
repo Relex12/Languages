@@ -1,7 +1,7 @@
 # 1ère partie du cours :
 
-* *git status* donne l'état du commit
-* *git add <monfichier.extension>* ajoute une modif / création à l'index de git et ajoute au commit
+* **git status** donne l'état du commit
+* **git add <monfichier.extension>** ajoute une modif / création à l'index de git et ajoute au commit
 * *git commit -m "Mon message"* envoit le commit
 * *git commit -a -m "Mon message"* ajoute toutes les modifs des fichiers de l'index et envoie le commit
 * *git commit -am "Mon message"* ajoute toutes les modifs des fichiers de l'index et envoie le commit
