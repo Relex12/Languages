@@ -7,6 +7,7 @@ Dans ce repository seront disposés des fichiers permettant d'accomplir des acti
 
 * Git
 * Markdown
+* HTML5
 
 ##  langages en cours d'édition 
 
@@ -18,7 +19,6 @@ Dans ce repository seront disposés des fichiers permettant d'accomplir des acti
 * C
 * Python
 * Haskell
-* HTML
 
 ## langages à apprendre
 
