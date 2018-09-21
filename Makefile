@@ -16,9 +16,7 @@ exemple : exemple.h exemple.c
 # $(OBJECTS)  sont les objets qui seront générés après la compilation
 # $(CC)       est le compilateur utilisé
 # $(CFLAGS)   sont les options de compilation
-# all est la première règle à être exécutée car elle est la première dans le fichier Makefile. Notons que les
-# dépendances peuvent être remplacées par une variable, ainsi que n’importe quelle chaîne de caractères des commandes
-
+# all 	revient à ne pas donner d'argument à make
 
 BIN = foo
 OBJECTS = main.o foo.o
@@ -50,5 +48,4 @@ clean:
 	rm -rf *.o
 mrproper: clean
   rm -rf $(EXEC) 
-  
-# à éclaircir : all, clean , mrproper
+ 
