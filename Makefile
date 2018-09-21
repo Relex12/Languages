@@ -35,7 +35,7 @@ foo.o: foo.c foo.h main.h
   $(CC) –c foo.c
 
 
-# exemple de compilation pour narvalo
+# exemple de compilation pour narvalo (pourra être enlevé)
 
 CC=gcc
 CFLAGS=-Wall -g
@@ -52,3 +52,8 @@ clean:
 mrproper: clean
   rm -rf $(EXEC) 
  
+# COMPILATION CONDITIONNELLE
+# il est possible de définir des variables pour le code lors de la compilation
+# pour cela on utilse l'argument -D EXEMPLE=2 -D NOMBRE
+# dans le code en C, le # ifdef EXEMPLE et le #ifndef permettent de compiler selon la présence de ces arguments
+# ne pas oublier de #endif
