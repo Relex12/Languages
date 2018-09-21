@@ -11,12 +11,15 @@ exemple : exemple.h exemple.c
 # $?  dépendances les plus récentes
 # $^  toutes les dépendances
 
-
 # $(BIN)      est le nom du fichier binaire généré
 # $(OBJECTS)  sont les objets qui seront générés après la compilation
 # $(CC)       est le compilateur utilisé
 # $(CFLAGS)   sont les options de compilation
+
+# la commande make peut se voir passer un argument, seul la cible correspondante sera compilée
 # all 	revient à ne pas donner d'argument à make
+# il est aussi possible de faire exécuter des commandes Bash à make, notamment rm pour supprimer des fichiers
+# on peut aussi utiliser des variables qui seront en majuscules
 
 BIN = foo
 OBJECTS = main.o foo.o
