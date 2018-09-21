@@ -3,27 +3,25 @@ Les bases de tous les langages que j'ai appris
 
 Dans ce repository seront disposés des fichiers permettant d'accomplir des actions de base dans certains langages de programmation et autres codes.
 
-## langages terminés
+* ## langages terminés
 
-Git
+* * Git
+* * Markdown
 
+* ##  langages en cours d'édition 
 
-##  langages en cours d'édition 
+* * Makefile
 
-Makefile
+* ## langages à éditer
 
+* * Javascript
+* * C
+* * Python
+* * Haskell
+* * HTML
 
-## langages à éditer
+* ## langages à apprendre
 
-Markdown
-
-Javascript
-
-C
-Python
-Haskell
-HTML
-
-Java
-LaTeX
-WordPress
+* * Java
+* * LaTeX
+* * WordPress
