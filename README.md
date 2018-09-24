@@ -19,6 +19,7 @@ Dans ce repository seront disposés des fichiers permettant d'accomplir des acti
 * C
 * Python
 * Haskell
+* Bash
 
 ## langages à apprendre
 
