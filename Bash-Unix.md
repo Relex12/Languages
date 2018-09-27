@@ -1,5 +1,5 @@
 #  Sources
-* **[Wikibooks](https://fr.wikibooks.org/wiki/Programmation_Bash/Commandes_ksh)**
+* **<a href="https://fr.wikibooks.org/wiki/Programmation_Bash/Commandes_ksh" target="_blank">Wikibooks</a>**
 
 ## commandes d'aide
 
