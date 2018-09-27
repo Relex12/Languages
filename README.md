@@ -13,6 +13,7 @@ Dans ce repository seront disposés des fichiers permettant d'accomplir des acti
 
 * Makefile
 * Matlab
+* Bash
 
 ## langages à éditer
 
@@ -20,7 +21,6 @@ Dans ce repository seront disposés des fichiers permettant d'accomplir des acti
 * C
 * Python
 * Haskell
-* Bash
 
 ## langages à apprendre
 
