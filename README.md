@@ -7,11 +7,11 @@ Dans ce repository seront disposés des fichiers permettant d'accomplir des acti
 
 * Git
 * Markdown
+* Makefile
 * HTML5
 
 ##  langages en cours d'édition 
 
-* Makefile
 * Matlab
 * Bash
 
