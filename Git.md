@@ -1,6 +1,8 @@
 # 1ère partie du cours :
 
 * **git status** donne l'état du commit
+* **git config --global user.email "EMAIL"** ajoute l'adresse mail de l'utilisateur
+* **git config --global user.name "NAME"** ajoute le nom de l'utilisateur
 * **git add <monfichier.extension>** ajoute une modif / création à l'index de git et ajoute au commit
 * **git commit -m "Mon message"** envoit le commit
 * **git commit -a -m "Mon message"** ajoute toutes les modifs des fichiers de l'index et envoie le commit
