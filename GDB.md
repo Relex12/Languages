@@ -31,8 +31,8 @@
 * **(gdb) watch <variable>** indique à GDB de s'arrêter dès que **variable** est modifiée
 * **(gdb) rwatch <variable>** indique à GDB de s'arrêter dès que **variable** est lue
 * **(gdb) awatch <variable>** indique à GDB de s'arrêter dès que **variable** est lue ou modifiée 
-* **(gdb) delete <breaknum> ** supprime le breakpoint de numéro **breaknum** (option facultative)
-* **(gdb) disable <breaknum> ** désactive le breakpoint de numéro **breaknum** (option facultative)
+* **(gdb) delete <breaknum>** supprime le breakpoint de numéro **breaknum** (option facultative)
+* **(gdb) disable <breaknum>** désactive le breakpoint de numéro **breaknum** (option facultative)
 * **(gdb) enable <breaknum> once** active le breakpoint de numéro **breaknum** (option facultative) puis le désactive
 * **(gdb) enable <breaknum> delete** active le breakpoint de numéro **breaknum** (option facultative) puis le supprime
 * **(gdb) step <count>** exécute les **count** prochaines lignes de code (facultatif, 1 sinon)
