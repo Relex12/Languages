@@ -41,5 +41,33 @@
   
 # Contrôle des variables et des registres
 
+* **(gdb) show values <n>** affiche dix valeurs de l'historique, de **n-5** à **n+4**
+* **(gdb) print /<format> <expr>** affiche **expr** en utilisant le format spécifié, les formats sont les suivants :
+* * **x** : entier affiché en hexadécimal 
+* * **d** : entier signé 
+* * **u** : entier non-signé 
+* * **o** : entier affiché en octal 
+* * **t** : entier affiché en binaire
+* * **a** : adresse
+* * **c** : caractère 
+* * **f** : flottant
+* **(gdb) print /<format> *<adresse>@<taille>** affiche un tableau de taille et d'adresse de départ spécifiées dans le format
+* **(gdb) info all-registers** affiche la liste complète des registres
+* **(gdb) info registers** affiche la liste des registres principaux
+* **(gdb) examine [/tfu] <adresse>** affiche le contenu de la mémoire à partir de **adresse**
+* **(gdb) set $<variable> = <value>** modifie la valeur contenue dans la variable GDB, il s'agit par exemple d'un registre 
+* **(gdb) set variable <variable> = <value>** modifie le contenu d'une variable du programme
 
+# Contrôle du déroulement de l'exécution
 
+* **(gdb) frame <frameid>** affiche les informations sur la frame (facultatif)
+* **(gdb) select-frame <frameid>** se place dans la frame indiquée
+* **(gdb) up <n>** remonte de **n** frames (facultatif, 1 sinon)
+* **(gdb) down <n>** descend de **n** frames (facultatif, 1 sinon)
+* **(gdb) info frame** affiche des informations détaillées sur la frame courante
+* **(gdb) backtrace** affich1e le stack d'appel (liste des frames)
+* **(gdb) backtrace full** affiche le stack d'appel avec le contenu des variables locales pour chaque frame
+* **(gdb) jump <position>** continue l'exécution à l'endroit spécifié (comme les breakpoints)
+* **(gdb) return <value>** exécute l'instruction de retour de la fonction dans laquelle vous vous trouvez (facultatif)
+* **(gdb) call <expression>** identique à print, sauf que n'affiche le résultat que s'il est différent de void
+  
