@@ -22,7 +22,7 @@ exemple : exemple.h exemple.c
 # CIBLE ET COMMANDE ----------------------------------------------------------------
 # la commande make peut se voir passer un argument, seul la cible correspondante sera compilée
 # il est aussi possible de faire exécuter des commandes Bash à make, notamment rm pour supprimer des fichiers
-
+# pour ne pas afficher la commande (que le résultat) on peut ajouter @ devant la commande
 
 # EXEMPLE --------------------------------------------------------------------------
 # compilation avec étape édition de liens (.o), utilisation de variables et de raccourcis
@@ -31,6 +31,8 @@ CC=gcc
 CFLAGS=-Wall -g
 LDFLAGS=-lwebsockets -lm
 
+all :
+	@echo "Veuillez préciser : narvalo, client.o, narvalo.o ou clean"
 narvalo: narvalo.o client.o
 	$(CC) $(CFLAGS) -o $@ $^ $(LDFLAGS)
 client.o: client.c narvalo.h client.h
