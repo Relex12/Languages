@@ -1,30 +1,32 @@
-# Languages
-Les bases de tous les langages que j'ai appris
+# Langages
 
-Dans ce repository seront disposés des fichiers permettant d'accomplir des actions de base dans certains langages de programmation et autres codes.
+Dans ce dépôt, les bases sous forme de fiches, d'exemples et de code de quelques langages et outils.
 
-## langages terminés
+## Arborescence 
 
-* Git
-* Markdown
-* Makefile
-* HTML5
+``` bash
+./
+├── Code/				du code complet dans différents langages (un dossier par langage)
+├── Examples/			des exemples succins (un fihier par langage)
+└── Sheets/				des fiches résumés
+```
 
-##  langages en cours d'édition 
+## Langages
 
-* Matlab
-* Bash
+* Faits :
+  * Bash
+  * GDB
+  * Git
+  * HTML5
+  * Makefile
+  * Markdown
+  * Matlab
+  * Python
+* Manquants :
 
-## langages à éditer
+  * C
+  * Java
+  * Javascript
+  * Haskell
 
-* Javascript
-* C
-* Python
-* Haskell
-* gdb
-
-## langages à apprendre
-
-* Java
-* LaTeX
-* WordPress
+  * LaTeX
