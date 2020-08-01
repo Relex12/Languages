@@ -1,6 +1,6 @@
 # Langages
 
-Dans ce dépôt, les bases sous forme de fiches, d'exemples et de code de quelques langages et outils.
+Dans ce dépôt, les bases sous forme de **fiches**, d'**exemples** et de **code** de quelques langages et outils.
 
 ## Arborescence 
 
@@ -14,13 +14,10 @@ Dans ce dépôt, les bases sous forme de fiches, d'exemples et de code de quelqu
 ## Langages
 
 * Faits :
-  * Bash
-  * GDB
-  * Git
   * HTML5
-  * Makefile
   * Markdown
   * Matlab
+  * Processing
   * Python
 * Manquants :
 
@@ -30,3 +27,11 @@ Dans ce dépôt, les bases sous forme de fiches, d'exemples et de code de quelqu
   * Haskell
 
   * LaTeX
+
+## Outils
+
+* Faits :
+  * Bash
+  * GDB
+  * Git
+  * Makefile
