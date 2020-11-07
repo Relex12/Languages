@@ -2,7 +2,7 @@
 
 Dans ce dépôt, les bases sous forme de **fiches**, d'**exemples** et de **code** de quelques langages et outils.
 
-![](https://img.shields.io/badge/status-In_progress-green) ![](https://img.shields.io/github/last-commit/Relex12/Languages) ![](https://img.shields.io/github/repo-size/Relex12/Languages) ![](https://img.shields.io/github/languages/count/Relex12/Languages)
+![](https://img.shields.io/badge/Language-French-blue) ![](https://img.shields.io/badge/status-In_progress-green) ![](https://img.shields.io/github/last-commit/Relex12/Languages) ![](https://img.shields.io/github/repo-size/Relex12/Languages) ![](https://img.shields.io/github/languages/count/Relex12/Languages)
 
 ---
 
@@ -20,6 +20,7 @@ Pour connaître la répartition, voici le résultat de la commande `tree` dans l
 $ tree
 .
 ├── Code
+│   ├── Ada
 │   ├── Processing
 │   └── Python
 ├── Examples
@@ -38,15 +39,16 @@ $ tree
 ## Langages
 
 * Faits :
+  * Ada
   * HTML5
   * Markdown
   * Matlab
   * Processing
   * Python
+  * Javascript
 * Manquants :
   * C
   * Java
-  * Javascript
   * Haskell
 
 ## Outils
