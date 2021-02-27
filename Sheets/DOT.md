@@ -39,6 +39,4 @@ Pour plus d'informations, consulter le site web : [https://graphviz.org/doc/info
 
 ## Compilation
 
-Après avoir installé `graphviz` avec la commande `apt install graphviz`, pour compiler le fichier DOT en fichier JPEG, on utilise la commande `dot graph.dot -T jpeg -o graph.jpeg`. 
-
-Pour l'aide : `dot -?`
+Après avoir installé `graphviz` avec la commande `apt install graphviz`, pour compiler le fichier DOT en fichier JPEG, on utilise la commande `dot graph.dot -T jpeg -o graph.jpeg`.

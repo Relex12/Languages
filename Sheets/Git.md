@@ -30,7 +30,7 @@
 * **git checkout -b <nomBranche>** crée la branche et s'y déplace
 * **git merche <nomBranche>** fusionne <nomBranche> avec la branche courrante (si on est sur une autre branche)
 * **git branch -d <nomBranche>** supprime la branche
-* **git commit** (sans message) après résolution de conflit de fusion, envoit un commit avec un message par défaut 
+* **git commit** (sans message) après résolution de conflit de fusion, envoit un commit avec un message par défaut
 * **git blame <nomdufichier.extension>** affiche pour chaque ligne du fichier le début du SHA du commit correspondant
 * **git show <début du SHA>** affiche en détail toutes les modifications apportées dans par un commit
 * **touch .gitignore** créé un fichier texte .gitignore qui contient la liste, ligne par ligne, des fichiers à ignorer par Git (.gitignore à add et commit)

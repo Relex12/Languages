@@ -4,7 +4,7 @@
 
 * commentaires
 
-``` javascript
+```javascript
 // ...
 
 /* ... */
@@ -12,54 +12,54 @@
 
 * déclaration et affectation d'une variable : `let a = 12;` (ou `var a = 12;`)
 * déclaration et affectation d'une constante : `const pi = 3.14;`
-* affichage dans la console : 
+* affichage dans la console :
 
-```` javascript
+```javascript
 console.log("Hello World!");
 console.log(a);
 console.log(`Pi vaut ${pi}`)
-````
+```
 
 * typage dynamique :
 
-````javascript
+```javascript
 let somme = a + pi;
 console.log("a + pi = " + somme)
-````
+```
 
 * conversion explicite :
 
-````javascript
+```javascript
 const h = "5";
 console.log(h + 1);     // Concaténation : affiche "51"
 const i = Number("5");
 console.log(i + 1);     // Addition numérique : affiche 6
 
-````
+```
 
 * affichage d'un champs de saisie : `const input= prompt("Enter input");`
 * affichage d'une boîte de dialogue : `alert("Text");`
 * opérations booléennes :
-`````javascript
+```javascript
 ===		Egal à
 !==		Différent de
 <		Inférieur à
 <=		Inférieur ou égal à
 > 		Supérieur à
 >=		Supérieur ou égal à
-`````
+```
 
 * logique combinatoire :
 
-````javascript
+```javascript
 && ET
 || OU
 !  NON
-````
+```
 
 * structure conditionnelle :
 
-``` javascript
+```javascript
 if (condition) {
 }
 else {
@@ -68,7 +68,7 @@ else {
 
 * switch :
 
-```` javascript
+```javascript
 switch (expression) {
 case valeur1:
   *
@@ -79,11 +79,11 @@ case valeur2:
 default:
   *
 }
-````
+```
 
 * boucles :
 
-```` javascript
+```javascript
 let i = borne_inf;
 while (i <= borne_sup) {
     //
@@ -93,13 +93,13 @@ while (i <= borne_sup) {
 for (let i = borne_inf; i <= borne_sup; i++) {
 	//
 }
-````
+```
 
 ## Fonctions
 
 * déclaration de fonction :
 
-```` javascript
+```javascript
 function functionName() {
 	//
     // un éventuel return
@@ -119,26 +119,26 @@ const maVariable = (param1, param2) => {
 }
 maVariable(arg1, arg2);
 // /!\ possible d'enlever les { } pour mettre directement une expression
-````
+```
 
 ## Objets
 
 * création d'un objet :
 
-```` javascript
+```javascript
 syntaxe littérale
 
 const object = {
   key: value,
   *
 };
-````
+```
 
 * ajout d'une nouvelle clé : `object.newkey = value;`
 
-* déclaration d'une méthode : 
+* déclaration d'une méthode :
 
-```` javascript
+```javascript
 const object = {
   key: value,
 
@@ -146,21 +146,21 @@ const object = {
   	return this.key;
   }
 };
-````
+```
 
 ## Tableaux
 
-* création d'un tableau : 
+* création d'un tableau :
 
-```` javascript
+```javascript
 const tab = [value1, value2, valueN];
 // les valeurs peuvent être de différents types
-````
+```
 
 * taille d'un tableau : `tab.Lenght`
-* parcours d'un tableau : 
+* parcours d'un tableau :
 
-```` javascript
+```javascript
 for (let i = 0; i < tab.length; i++) {
   // tab[i]
 }
@@ -172,7 +172,7 @@ tab.forEach(el => {
 for (const el of tab) {
   // el
 }
-````
+```
 
 * ajout d'un élément en fin : `tab.push(new_el);`
 
@@ -201,7 +201,7 @@ for (const el of tab) {
 
 * création de classe :
 
-```` javascript
+```javascript
 class Classe {
   constructor(key1) {
     this.key1 = key1;
@@ -212,15 +212,12 @@ class Classe {
     return `${this.key1}, ${this.key2}`;
   }
 }
-````
+```
 
 * création d'un objet avec prototype :
 
-```` javascript
+```javascript
 const object1 = { key: value };				// object1.key === value
 const object2 = Object.create(object1);		// object2.key === value
 const object3 = Object.create(object2);		// object3.key=== value
-````
-
-
-
+```
