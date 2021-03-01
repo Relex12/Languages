@@ -1,46 +1,149 @@
+* *italique*
+```markdown
 *italique* ou _italique_
+```
 
+* **gras**
+```markdown
 **gras** ou __gras__
+```
 
-# Titre de niveau 1
+* Titre de niveau 1
+# Titre
+```markdown
+# Titre
+```
 
-## Titre de niveau 2
+* Titre de niveau 2
+## Titre
+```markdown
+## Titre
+```
 
-### Titre de niveau 3
+* etc..
+```markdown
+### Titre
+```
 
-#### etc...
+* liste à puces
+	* élément A
+	* élément B
+		* sous-élément
+```markdown
+* élément A
+* élément B
+	* sous-élément
+```
 
-* premier 
-* deuxième
-	* 2a
-	* 2b
-* etc
-
+* liste numérotée
 1. premier
 2. deuxième
-	
-> citation 
+```markdown
+1. premier
+2. deuxième
+```
 
-Voici un code en C :
+* citation
+> citation
 
+```markdown
+> citation
 
-    int main()
-	
-    {
-        printf("Hello world!\n");
-    
-		return 0;
-    }
-	
-La fonction `printf()` permet d'afficher du texte
+```
 
-Voici l'adresse du [repository Languages](https://github.com/Relex12/Languages)
+* code multiligne
+```c
+int main() {
+	printf("Hello world!\n");
+return 0;
+}
+```
 
-![Image](http://uploads.siteduzero.com/files/420001_421000/420263.png)
+```markdown
+​```c
+int main() {
+	printf("Hello world!\n");
+return 0;
+}
+​```
+```
 
+* `code` en ligne
+```markdown
+`code`
+```
+
+* [lien hypertexte](https://github.com/Relex12/Languages)
+
+```markdown
+[lien hypertexte](https://github.com/Relex12/Languages)
+```
+
+* image
+```markdown
+![Image](https://github.com/Relex12/myimage.png)
+```
+
+* séparation horizontale
 -----------
-séparations 
-***********
+```markdown
+-----
+ou
+*****
+```
 
-on peut aussi écrire <em>directement</em> en <strong>HTML</strong>
+* tableau
+|      |      |      |
+| ---- | ---- | ---- |
+|      |      |      |
+|      |      |      |
 
+```markdown
+|      |      |      |
+| ---- | ---- | ---- |
+|      |      |      |
+|      |      |      |
+```
+
+* <em>écriture</em> en <strong>HTML</strong>
+
+```markdown
+<em>écriture</em> en <strong>HTML</strong>
+```
+
+* écriture en ^exposant^
+
+```markdown
+écriture en ^exposant^
+```
+
+* écriture en ~indice~
+
+```markdown
+écriture en ~indice~
+```
+
+* écriture ==surligné==
+
+```markdown
+écriture ==surligné==
+```
+
+* note[^1] de base de page
+[^1]: explication
+```markdown
+note[^1] de base de page
+[^1]: explication
+	```
+
+* $\LaTeX$ dans une ligne
+
+```markdown
+$\LaTeX$
+```
+
+* table des matières
+
+```markdown
+[toc]
+```
