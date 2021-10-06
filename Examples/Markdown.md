@@ -165,8 +165,3 @@ note[^1] de base de page
 $\LaTeX$
 ```
 
-* table des matières
-
-```markdown
-[toc]
-```
